@@ -1,0 +1,185 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>NK Designs - Gallery</title>
+ 
+    <!--    Style sheets    -->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/lightbox.css" rel="stylesheet" />
+    
+    <!--    Lightbox        -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/lightbox-2.6.min.js"></script>
+    
+    <!--    Masonry         -->
+    <script src="js/masonry.pkgd.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    
+    <!--    Favicons        -->
+	<link rel="shortcut icon" href="images/NKIco.ico">
+    
+    <script>
+        $(function(){
+            var $container = $('#container');
+   
+            $container.imagesLoaded( function(){
+              $container.masonry({
+                itemSelector : '.item',
+                isFitWidth: true
+              });
+            });
+        });
+        
+        $('#container').masonry({ isFitWidth: true });
+    </script>
+    
+</head>
+
+<body>
+	<header>
+		<a href="index.html">
+			<img src="images/NKDesignsLogoLarge.png" alt="NK Designs Logo">
+		</a>
+	
+		<p id="info">
+			Nancy K Smith<br>
+			Interior Design<br>
+			925.963.6872<br>
+			nkdesigns@icloud.com
+		</p>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html" class="selected">gallery</a></li>
+			<li><a href="about.html">about</a></li>
+		</ul>
+	</nav>
+    
+    <header id="galleryHeader">Click an image to enlarge</header><br>
+	
+	<div id="container">
+        <!--  Base div  
+        <div class="item">
+            <a href="" data-lightbox="">
+                <img src="" class="" alt="">
+            </a>
+        </div>  
+        -->
+
+        <div class="item">
+            <a href="gallerylarge/KM/KMkitchen.jpg" data-lightbox="KMKitchen">
+                <img src="gallerysmall/KM/KMkitchen.jpg" class="galleryImageVt" alt="Kitchen">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/KM/KMbathroom.jpg" data-lightbox="KMBathroom" title="Global traveller meets glam diva">
+                <img src="gallerysmall/KM/KMbathroom.jpg" class="galleryImageVt" alt="Bathroom">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/kitchen.jpg" data-lightbox="Kitchen" title="Kitchen">
+                <img src="gallerysmall/kitchen.jpg" class="galleryImageVt" alt="Kitchen">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/Bush/Bush.jpg" data-lightbox="Bush">
+                <img src="gallerysmall/Bush/Bush.jpg" class="galleryImageVt" alt="Kitchen">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/Bush/BushKitchen.jpg" data-lightbox="BushKitchen">
+                <img src="gallerysmall/Bush/BushKitchen.jpg" class="galleryImageVt" alt="Kitchen">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/Bush/BushKitchen2.jpg" data-lightbox="BushKitchen2">
+                <img src="gallerysmall/Bush/BushKitchen2.jpg" class="galleryImageVt" alt="Kitchen">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/Bush/BushKitchen3.jpg" data-lightbox="BushKitchen3">
+                <img src="gallerysmall/Bush/BushKitchen3.jpg" class="galleryImageVtLarge" alt="Kitchen">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/diablomagazine.jpg" data-lightbox="DiabloMagazine" title="Nancy's home featured in Diablo Magazine">
+                <img src="gallerysmall/diablomagazine.jpg" class="galleryImageHz" alt="Kitchen">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/Joy/JoyLivingRoom.jpg" data-lightbox="LivingRoom">
+                <img src="gallerysmall/Joy/JoyLivingRoom.jpg" class="galleryImageVt" alt="Living Room">
+            </a>
+        </div>
+
+        <div class="item">
+            <a href="gallerylarge/lights.jpg" data-lightbox="Lights">
+                <img src="gallerysmall/lights.jpg" class="galleryImageVt" alt="Hanging Lights">
+            </a>
+        </div> 
+
+        <div class="item">
+            <a href="gallerylarge/House/backyard.jpeg" data-lightbox="Backyard">
+                <img src="gallerysmall/House/backyard.jpg" class="galleryImageVt" alt="Backyard">
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="gallerylarge/House/bedroom.jpeg" data-lightbox="Beroom">
+                <img src="gallerysmall/House/bedroom.jpg" class="galleryImageHz" alt="Bedroom">
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="gallerylarge/House/bedroom2.jpeg" data-lightbox="Bedroom2">
+                <img src="gallerysmall/House/bedroom2.jpg" class="galleryImageVt" alt="Bedroom">
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="gallerylarge/House/chairs.jpeg" data-lightbox="Chairs">
+                <img src="gallerysmall/House/chairs.jpg" class="galleryImageHz" alt="Chairs">
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="gallerylarge/House/console.jpeg" data-lightbox="Console">
+                <img src="gallerysmall/House/console.jpg" class="galleryImageVt" alt="Console">
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="gallerylarge/House/diningroom.jpg" data-lightbox="DiningRoom">
+                <img src="gallerysmall/House/diningroom.jpg" class="galleryImageHz" alt="Dining Room">
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="gallerylarge/House/frontdoor.jpeg" data-lightbox="FrontDoor">
+                <img src="gallerysmall/House/frontdoor.jpg" class="galleryImageVt" alt="Front Door">
+            </a>
+        </div>
+        
+        <div class="item">
+            <a href="gallerylarge/House/outdoortable.jpeg" data-lightbox="OutdoorTable">
+                <img src="gallerysmall/House/outdoortable.jpg" class="galleryImageHz" alt="Outdoor Table">
+            </a>
+        </div>
+	</div>
+
+	<footer id="mainFooter">
+		<p>(c) Copyright 2015 NK Designs LLC. All Rights Reserved.</p>
+        <p>Images powered by Lightbox</p>
+	</footer>
+</body>
+</html>
