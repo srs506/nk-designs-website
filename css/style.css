@@ -1,109 +1,148 @@
 /* General Style */
 body{
-  background-image:   url("../images/stripedgray.jpg");
-  background-repeat:  repeat;
-  color:	black;
-  font:     medium/1em "Century Gothic", Verdana, Arial, sans-serif;
-  margin:   10px;
-  padding:	0% 10%;
+    background-image:   url("../images/stripedgray.jpg");
+    background-repeat:  repeat;   
+    color:				black;
+    font: 				medium/1em "Century Gothic", Verdana, Arial, sans-serif;
+	margin:				10px;
+	padding:			0% 10%;
 }
 
-.body{
-  padding:  10px 0px;
-}
 
-/* Header, Info, Footer */
+/* Header, Footer, Info */
 header img{
-  width: 300px;
+	width:				300px;
 }
 
 #galleryHeader{
-  text-align: center;
+    text-align: center;
 }
 
 #info{
-  float:	    right;
-  font-size:    small;
-  margin-top:	20px;
-  text-align:	right;
+	float:				right;
+	font-size:			small;
+    margin-top:			20px;
+	text-align:			right;
 }
 
 #mainFooter{
-  position:     relative;
-  padding-top:  25px;
-  left:         0px;
-  bottom:       25px;
-  width:        100%;
-  line-height:  50%;
-  font-size:	75%;
-  text-align:	center;
+    position:           relative; 
+    padding-top:        25px;
+    left:               0px;
+    bottom:             25px;
+    width:              100%;  
+    line-height:        50%;  
+    font-size:			75%;
+	text-align:			center;          
 }
 
 
 /* Navigation Menu */
 nav{
-  margin-top:   15px;
+	margin-top:             15px;
 }
 
 nav ul{
-  font-size:  130%;
-  padding:    0px;
+    font-size:			130%;
+    padding:            0px;
 }
 
 nav ul li{
-  display:        inline;
-  padding-right:  45px;
+	display:			inline;   
+	padding-right:		45px;
 }
 
 nav ul li a:link, nav ul li a:visited{
-  color:			black;
-  text-decoration:	none;
+    color:				black;
+    text-decoration:	none;
 }
 
 nav ul li a:hover{
-  color:  gray;
+	color:				gray;
 }
 
 
 /* Image Style */
 
 .item{
-  margin: 3px;
+    margin: 3px;
 }
 
+
 #container img{
-  border: thin solid #333;
+    border: thin solid #333;
 }
 
 .galleryImageVt{
-  width: 200px;
+    width: 200px;
 }
 
-.galleryImageHz, .galleryImageVtLarge{
-  width: 408px;
+.galleryImageHz{
+    width: 408px;
+}
+
+.galleryImageVtLarge{
+    width: 408px;
 }
 
 #container a:hover img {
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0) ;
+    
+}
 
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateZ(0) scale(1.0, 1.0) ;
+/* General Body Style */
+
+.body{
+	padding:	10px 0px; 
+}
+
+
+/* Index Page */
+
+#indexBody{
+	line-height:		2em;    
+	text-align:			center;
+}
+
+#indexTable{
+	margin-left:		auto;
+	margin-right:		auto;
+}
+
+.indexVertical{
+	height:				312px;     
+	width:				200px;              
+}
+
+.indexHorizontal{
+	height:				150px;     
+	width:				200px;
 }
 
 
 /* About Page */
 
 #aboutBody{
-  line-height:  2em;
-  padding-top:  20px;
+	line-height:		2em;
+    padding-top:        20px;
 }
 
 #aboutPhoto{
-  border: thin solid black;
-  float:  right;
-  height: 300px;
-  margin: 10px 0px 20px 20px
+	border:				thin solid black;
+	float:				right;    
+    height:             300px;
+	margin:				10px 0px 20px 20px
+}
+
+
+/* Gallery Page */
+
+#container{
+    margin: 0 auto;
 }

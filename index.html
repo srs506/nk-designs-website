@@ -16,6 +16,9 @@
     <script src="js/masonry.pkgd.js"></script>
     <script src="js/imagesloaded.pkgd.js"></script>
     
+    <!--    Site Script     -->
+    <script src="js/nkdesigns.js"></script>
+    
     <!--    Favicon         -->
 	<link rel="shortcut icon" href="images/NKIco.ico">
     
@@ -30,9 +33,10 @@
                 isFitWidth: true
               });
             });
+            
+            $('#mainContent').fadeIn(800);
         });
         
-        $('#container').masonry({ isFitWidth: true });
     </script>
     
 </head>
@@ -57,7 +61,8 @@
 			<li><a href="about.html">about</a></li>
 		</ul>
 	</nav>
-    
+
+<div id="mainContent" style="display:none">    
     <header id="galleryHeader">Click an image to enlarge</header><br>
 	
     <!--  Image Gallery  -->
@@ -224,5 +229,6 @@
 		<p>(c) Copyright 2015 NK Designs LLC. All Rights Reserved.</p>
         <p>Powered by Lightbox and Masonry</p>
 	</footer>
+</div>
 </body>
 </html>
