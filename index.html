@@ -22,23 +22,6 @@
     <!--    Favicon         -->
 	<link rel="shortcut icon" href="images/NKIco.ico">
     
-    <!--    Masonry         -->
-    <script>
-        $(function(){
-            var $container = $('#container');
-   
-            $container.imagesLoaded( function(){
-              $container.masonry({
-                itemSelector : '.item',
-                isFitWidth: true
-              });
-            });
-            
-            $('#mainContent').fadeIn(800);
-        });
-        
-    </script>
-    
 </head>
 
 <body>
@@ -51,7 +34,7 @@
 			Nancy K Smith<br>
 			Interior Design<br>
 			925.963.6872<br>
-			nkdesigns@icloud.com
+			<a href="mailto:nkdesigns@icloud.com">nkdesigns@icloud.com</a>
 		</p>
 	</header>
 	
@@ -62,7 +45,7 @@
 		</ul>
 	</nav>
 
-<div id="mainContent" style="display:none">    
+<div id="mainContent">    
     <header id="galleryHeader">Click an image to enlarge</header><br>
 	
     <!--  Image Gallery  -->

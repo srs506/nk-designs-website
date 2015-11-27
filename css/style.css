@@ -6,6 +6,7 @@ body{
     font: 				medium/1em "Century Gothic", Verdana, Arial, sans-serif;
 	margin:				10px;
 	padding:			0% 10%;
+    height:             100%;
 }
 
 
@@ -20,9 +21,14 @@ header img{
 
 #info{
 	float:				right;
-	font-size:			small;
+	font-size:			15px;
     margin-top:			20px;
 	text-align:			right;
+    line-height:        1.5em;
+}
+
+#info a{
+    color: black;
 }
 
 #mainFooter{
@@ -103,7 +109,7 @@ nav ul li a:hover{
 }
 
 
-/* Index Page */
+/* Gallery Page */
 
 #indexBody{
 	line-height:		2em;    
@@ -125,6 +131,10 @@ nav ul li a:hover{
 	width:				200px;
 }
 
+#container{
+    margin: 0 auto;
+}
+
 
 /* About Page */
 
@@ -138,11 +148,4 @@ nav ul li a:hover{
 	float:				right;    
     height:             300px;
 	margin:				10px 0px 20px 20px
-}
-
-
-/* Gallery Page */
-
-#container{
-    margin: 0 auto;
 }
